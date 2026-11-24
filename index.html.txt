@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2048 - Browser Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="top">
+      <h1>2048</h1>
+      <div class="scores">
+        <div class="score-box"><span>SCORE</span><strong id="score">0</strong></div>
+        <div class="score-box"><span>BEST</span><strong id="best">0</strong></div>
+      </div>
+    </header>
+
+    <p class="hint">Use the arrow keys (or swipe on mobile) to merge equal tiles and reach <b>2048</b>.</p>
+    <button id="new-game" class="btn">New Game</button>
+
+    <div class="board-wrap">
+      <!-- The board is filled by game.js -->
+      <div id="board" class="board"></div>
+      <div id="message" class="message hidden">
+        <p id="message-text"></p>
+        <button id="retry" class="btn">Try again</button>
+      </div>
+    </div>
+
+    <footer>Built with HTML, CSS and vanilla JavaScript.</footer>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

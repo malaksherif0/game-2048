@@ -2,7 +2,7 @@
 
 A clone of the classic 2048 puzzle game, built with plain HTML, CSS and JavaScript. No frameworks, no libraries, no build step.
 
-**Play it live:** https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+**Play it live:** https://malaksherif0.github.io/game-2048/
 
 ## Features
 
